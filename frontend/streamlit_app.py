@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("🩺 Accessible Healthcare Information Bot")
+st.title("Swasthya Setu")
 st.write("Ask any question related to health in English or Hindi.")
 
 query = st.text_input(" Your question:")
