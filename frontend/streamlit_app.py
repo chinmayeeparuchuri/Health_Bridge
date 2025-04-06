@@ -4,10 +4,10 @@ import requests
 st.title("🩺 Accessible Healthcare Information Bot")
 st.write("Ask any question related to health in English or Hindi.")
 
-query = st.text_input("💬 Your question:")
+query = st.text_input(" Your question:")
 
 if st.button("Get Advice") and query:
-    with st.spinner("🔍 Searching for health advice..."):
+    with st.spinner(" Searching for health advice..."):
         try:
             response = requests.post(
                 "http://127.0.0.1:5000/query",
